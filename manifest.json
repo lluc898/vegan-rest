@@ -1,0 +1,38 @@
+{
+    "name": "restaurante",
+    "short_name": "RES",
+    "description": "Bienvenidos a la carta de nuestro restaurante vegano.",
+    "background_color": "#fff",
+    "theme_color": "#52b788",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-ES",
+    "icons": [
+        {
+            "src": "./img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/twitter.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/facebook.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/instagram.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+
+    ]
+}
