@@ -1,37 +1,32 @@
 {
-    "name": "restaurante",
+    "theme_color": "#52b788",
+    "background_color": "#7ed321",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./?utm_source=web_app_manifest",
+    "name": "Vegan Rest",
     "short_name": "RES",
     "description": "Bienvenidos a la carta de nuestro restaurante vegano.",
-    "background_color": "#fff",
-    "theme_color": "#52b788",
-    "orientation": "portrait",
-    "display": "standalone",
-    "start_url": "./?utm_source=web_app_manifest",
-    "scope": "./",
     "icons": [
         {
-            "src": "./img/logo.png",
-            "sizes": "512x512",
+            "src": "./img/icon-192x192.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
-
         {
-            "src": "./img/logo384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-
-        {
-            "src": "./img/logo256.png",
+            "src": "./img/icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
-
         {
-            "src": "./img/logo192.png",
-            "sizes": "192x192",
+            "src": "./img/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icon-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
-
     ]
 }
